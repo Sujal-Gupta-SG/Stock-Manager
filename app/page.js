@@ -1,4 +1,5 @@
-import { Welcome } from "@/pages/Welcome";
+import  Welcome  from "@/pages/Welcome";
+
 
 export const metadata = {
   title: "Stock Manager",
