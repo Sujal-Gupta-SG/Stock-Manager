@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <SessionProvider>
       <html lang="en">
+        <title>Stock Manager</title>
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
