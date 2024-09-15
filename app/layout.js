@@ -1,5 +1,4 @@
-// app/layout.js (or pages/_app.js if using the old pages directory)
-"use client"
+"use client";
 import { SessionProvider } from "next-auth/react";
 import localFont from "next/font/local";
 import "./globals.css";
