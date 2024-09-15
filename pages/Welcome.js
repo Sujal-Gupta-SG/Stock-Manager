@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import DashBoard from "./DashBoard";
 
-export function Welcome() {
+export default function Welcome() {
   const { data: session } = useSession();
 
   const handleSignIn = async () => {
